@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "ec9a1075-600a-4e64-b4c6-80515322b895",
+		"name": "Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44320/api/Autenticacion/auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\": \"pruebas@gmail.com\",\r\n    \"contraseña\": \"pruebas123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/Autenticacion/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"Autenticacion",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

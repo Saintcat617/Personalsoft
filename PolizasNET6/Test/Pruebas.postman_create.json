@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "ec9a1075-600a-4e64-b4c6-80515322b895",
+		"name": "Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44320/api/Client/create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJwcnVlYmFzQGdtYWlsLmNvbSIsIm5iZiI6MTY4NjMwNDcyNCwiZXhwIjoxNjg2MzA3NDI0LCJpYXQiOjE2ODYzMDQ3MjR9.E6HtzkOGcpbShznouWpUPl9uSkpQ3JDNG2Pj8kfLIfY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombreCliente\": \"juan pedro\",\r\n  \"identificacionCliente\": \"1019086117\",\r\n  \"fechaNacimientoCliente\": \"12 julio\",\r\n  \"ciudadResidenciaCliente\": \"bogota\",\r\n  \"direccionResidencia\": \"calle 123 # 70 47\",\r\n  \"nomplePlanPoliza\": \"premium\",\r\n  \"fechaInicioPoliza\": \"2023-06-09\",\r\n  \"añosDeCoberturaPagados\": 2,\r\n  \"fechaVigenciaPoliza\": \"2025-06-09\",\r\n  \"coberturasPoliza\": \"total\",\r\n  \"valorMaximoCubiertoPoliza\": 100,\r\n  \"placaAutomotor\": \"bmw123\",\r\n  \"modeloAutomotor\": \"1992\",\r\n  \"tieneInspeccion\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/Client/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"Client",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

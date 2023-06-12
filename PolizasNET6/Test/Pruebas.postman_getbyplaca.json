@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "ec9a1075-600a-4e64-b4c6-80515322b895",
+		"name": "Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetByPlaca",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJwcnVlYmFzQGdtYWlsLmNvbSIsIm5iZiI6MTY4NjUyMjgwMCwiZXhwIjoxNjg2NTI1NTAwLCJpYXQiOjE2ODY1MjI4MDB9.x7JpZAJH-zcJSezFmuUF3XNbOyB7zKW-Ir-a4UwVYD4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/Api/Client/bmw123",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"Api",
+						"Client",
+						"bmw123"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
